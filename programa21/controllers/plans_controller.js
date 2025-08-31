@@ -9,7 +9,7 @@ async function planInsert(req, res) {
     if(!nomeplano || !descricao || !velocidade || !valor || !status){
         return res.status(400).json({ Msg: 'Erro é necessário que todos os campos estejam preenchidos' });
 @@ -51,7 +50,7 @@ async function UpdtPlan(req, res){
-}
+ }
 
 
 async function DeleteCustomer(req, res) {
